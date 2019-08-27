@@ -62,7 +62,7 @@ for ind, col  in enumerate(df.columns):
             table_crea.append(f"{col} NUMBER(10) NULL")
         else:
             table_crea.append(f"{col} NUMBER(10) NOT NULL")
-print(table_crea)
+# print(table_crea)
 
 
 # Create insert queries.
