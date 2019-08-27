@@ -13,3 +13,5 @@ To run it:
 ```diff
 python3 Converter.py
 ```
+## Important
+The excel file should be in the same directory as the ```Converter.py``` script.
