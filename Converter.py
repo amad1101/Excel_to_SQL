@@ -62,7 +62,7 @@ for ind, col  in enumerate(df.columns):
             table_crea.append(f"{col} NUMBER(10) NULL")
         else:
             table_crea.append(f"{col} NUMBER(10) NOT NULL")
-# print(table_crea)
+print(table_crea)
 
 
 # Create insert queries.
@@ -70,7 +70,7 @@ for ind, col  in enumerate(df.columns):
 length_col = len(df.columns)
 insert_methods = []
 for index, row in df.iterrows():
-    str_query = 'INSERT INTO test_employee VALUES ( '
+    str_query = f'INSERT INTO {to_open} VALUES ( '
     for i in range(length_col):
         if (type(row[df.columns[i]]) == str) and (is_date(str(row[df.columns[i]])) == True):
             to_append = f"{row[df.columns[i]]}".strip()
