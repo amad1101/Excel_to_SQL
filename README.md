@@ -3,6 +3,7 @@ This program convert excel files to SQL queries and add them into to sql ready f
 ## As Notice
 The type assignment is not always accurate, therefore, make sure to check the 'script.sql' to confirm that everything is correct.
 
+## prerequisite
 The prerequisite programs are:
 ```
 phyton3
