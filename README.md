@@ -1,5 +1,5 @@
 # Excel_to_SQL
-This program convert excel files to SQL queries and add them into to sql ready file called 'script.py'.
+This program convert excel files to SQL queries and add them into to sql ready file called 'script.sql'.
 
 The prerequisite programs are:
 ```
